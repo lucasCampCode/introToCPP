@@ -40,7 +40,7 @@ int main()
 	}
 	int guess = BinarySearch(num);
 	if (guess != -1)
-		std::cout << "your number was " << guess << std::endl;
+		std::cout << "your number is " << guess <<"! i win :P"<< std::endl;
 	else 
 		std::cout << "you cheated" << std::endl;
 	system("pause");
